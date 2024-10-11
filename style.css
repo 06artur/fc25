@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://cdn.awsli.com.br/2500x2500/2063/2063642/produto/285576617/fc25-12-gltya1ia2g.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-image: url(https://fifauteam.com/images/fc25/logo/long-green.webp);
+    padding: 10px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+    background-color: rgba(51, 46, 41, 0.747);
+    border-radius: 15px;
+    opacity: 70%;
+    background-image: url(https://fifauteam.com/images/fc25/logo/long-green.webp);
+    background-position: 50% 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 30%;
+
+
+
+}
+
+.footer{
+    background-color: rgb(146, 146, 146);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.cta-buttom{
+    background-color: rgb(16, 168, 54);
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border: 50px;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+}
+
+.cta-buttom2{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border: 50px;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(78, 95, 109);
+    color: aliceblue;
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+
+}
+
+@media (max-width: 320px) {
+    .column{
+        flex: 1 1 100%;
+        background-color: rgb(38, 44, 44);
+    }
+}
+
+@media (max-width: 480px) {
+    .column{
+        flex: 1 1 100%;
+    }
+}
